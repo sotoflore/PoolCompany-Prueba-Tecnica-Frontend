@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PoolCompany: Expertos en construcción y diseño de piscinas. Ofrecemos soluciones personalizadas para tu hogar o negocio.">
+    <meta name="keywords" content="piscinas, construcción de piscinas, diseño de piscinas, PoolCompany">
+    <meta name="author" content="PoolCompany">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="PoolCompany | Construcción y Diseño de Piscinas">
+    <meta property="og:description" content="Expertos en construcción y diseño de piscinas. Soluciones personalizadas para tu hogar o negocio.">
+    <meta property="og:type" content="website">
+    <title>PoolCompany | Construcción y Diseño de Piscinas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="fixed-top w-100 shadow header bg-white">
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+                <a class="navbar-brand name-company fw-bold text-danger" href="#">PoolCompany</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary fw-bold" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary fw-bold" href="#services">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary fw-bold" href="#gallery">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary fw-bold" href="#testimonials">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link fw-bold rounded-2 bg-danger text-white" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main-section">
+        <!-- Seccion de Hero -->
+       <section id="hero" class="section-hero min-vh-100 d-flex flex-column align-items-center justify-content-center">
+            <div class="container">
+                <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                    <div class="carousel-inner rounded-3">
+                        <div class="carousel-item active image-carousel-1 rounded-3"></div>
+                        <div class="carousel-item image-carousel-2 rounded-3"></div>
+                        <div class="carousel-item image-carousel-3 rounded-3"></div>
+                    </div>
+                    <div class="hero-text position-absolute text-white z-1">
+                        <h1 class="display-4 fw-bold mb-4 text lh-1" data-aos="fade-up">Transforma Tu Espacio con Piscinas de Ensueño</h1>
+                        <p class="lead mb-4" data-aos="fade-up">
+                            Diseñamos y construimos piscinas personalizadas que transformarán tu jardín en un oasis de
+                            relajación y diversión.
+                        </p>
+                        <a href="#contact" class="btn btn-primary border-0 btn-lg fw-bold" data-aos="fade-up">
+                            Solicitar información
+                            <i class="bi bi-arrow-right-circle ps-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+       </section>
+
+        <!-- Seccion de Servicios -->
+        <section class="section-services" id="services">
+            <div class="container">
+                <h2 class="text-center display-5 fw-bold text-dark">Nuestros Servicios</h2>
+                <hr class="border border-primary border-3 opacity-75 p-0 m-0 w-25 m-auto rounded-circle">
+                <p class="text-center px-2 px-lg-5 mt-4 mb-5 text-secondary">
+                    Ofrecemos soluciones integrales para todas tus necesidades relacionadas con piscinas. Desde diseños
+                    personalizados hasta
+                    el mantenimiento de tu piscina durante todo el año, nuestro objetivo es brindar servicios de calidad que
+                    superen tus
+                    expectativas.
+                </p>
+                <div class="row">
+                    <nav class="col-12 col-lg-5" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="nav flex-column nav-pills me-lg-5 mx-2 mx-lg-0" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link text-start active p-4" id="v-pills-design-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-design" type="button" role="tab" aria-controls="v-pills-design"
+                                aria-selected="true">
+                                <span class="fs-3 d-block fw-bold">Diseño Personalizado</span>
+                                <span class="d-block text-secondary">
+                                    Personaliza tu piscina con diseños únicos y exclusivos.
+                                </span>
+                            </button>
+                            <button class="nav-link text-start p-4 my-3" id="v-pills-construction-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-construction" type="button" role="tab"
+                                aria-controls="v-pills-construction" aria-selected="true">
+                                <span class="fs-3 d-block fw-bold">Construcción de Piscinas</span>
+                                <span class="d-block text-secondary">
+                                    Ofrecemos construcción con materiales de alta calidad.
+                                </span>
+                            </button>
+                            <button class="nav-link text-start p-4 mb-3" id="v-pills-remodeling-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-remodeling" type="button" role="tab" aria-controls="v-pills-remodeling"
+                                aria-selected="true">
+                                <span class="fs-3 d-block fw-bold">Remodelación</span>
+                                <span class="d-block text-secondary">
+                                    Transforma tu vieja piscina en una obra moderna y funcional.
+                                </span>
+                            </button>
+                            <button class="nav-link text-start p-4" id="v-pills-maintenance-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-maintenance" type="button" role="tab"
+                                aria-controls="v-pills-maintenance" aria-selected="true">
+                                <span class="fs-3 d-block fw-bold">Mantenimiento</span>
+                                <span class="d-block text-secondary">
+                                    Mantén tu piscina en perfectas condiciones todo el año.
+                                </span>
+                            </button>
+                        </div>
+                    </nav>
+                    <div class="col-12 col-lg-7" data-aos="fade-down" data-aos-duration="2000">
+                        <div class="tab-content mx-2 mx-lg-0 mt-5" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-design" role="tabpanel"
+                                aria-labelledby="v-pills-design-tab" tabindex="0">
+                                <img src="./assets/images/services/image-service-1.jpg" alt="imagen de diseño de una piscina"
+                                    class="img-fluid rounded-3 shadow">
+                                <h2 class="fw-bold mt-4">Diseño Personalizado</h2>
+                                <p class="text-secondary">
+                                    ¿Sueñas con una piscina que refleje tu personalidad y estilo de vida? Nuestro servicio de
+                                    diseño personalizado te
+                                    permite crear una piscina única y exclusiva. Trabajamos contigo para diseñar cada detalle,
+                                    desde la forma y el tamaño
+                                    hasta los materiales y acabados.
+                                </p>
+                                <ul class="text-secondary">
+                                    <li>Creación de diseños innovadores y personalizados.</li>
+                                    <li>Selección de materiales de alta calidad.</li>
+                                    <li>Asesoramiento experto en todo el proceso.</li>
+                                </ul>
+                                <a href="#contact"
+                                    class="btn border-0 btn-primary fw-bold text-decoration-none px-4 text-white py-2 d-inline-block rounded-2 mt-3">
+                                    <span>Cotizar servicio</span>
+                                    <i class="bi bi-currency-dollar"></i>
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-construction" role="tabpanel"
+                                aria-labelledby="v-pills-construction-tab" tabindex="0">
+                                <img src="./assets/images/services/image-service-2.jpg"
+                                    alt="imagen de construcción de una piscina" class="img-fluid rounded-3">
+                                <h2 class="fw-bold mt-4">Construcción de Piscinas</h2>
+                                <p class="text-secondary">
+                                    Construimos piscinas que combinan funcionalidad y estética. Nuestro equipo de expertos
+                                    utiliza materiales de primera
+                                    calidad y las técnicas más avanzadas para asegurar que tu piscina no solo sea hermosa, sino
+                                    también duradera y segura.
+                                </p>
+                                <ul class="text-secondary">
+                                    <li>Construcción profesional con atención al detalle.</li>
+                                    <li>Uso de materiales duraderos y de alta calidad.</li>
+                                    <li>Entrega de proyectos en tiempo y forma.</li>
+                                </ul>
+                                <a href="#contact"
+                                    class="btn border-0 btn-primary fw-bold text-decoration-none px-4 text-white py-2 d-inline-block rounded-2 mt-3">
+                                    <span>Cotizar servicio</span>
+                                    <i class="bi bi-currency-dollar"></i>
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-remodeling" role="tabpanel"
+                                aria-labelledby="v-pills-remodeling-tab" tabindex="0">
+                                <img src="./assets/images/services/image-service-3.jpg"
+                                    alt="imagen de una piscina de remodelación" class="img-fluid rounded-3">
+                                <h2 class="fw-bold mt-4">Remodelación</h2>
+                                <p class="text-secondary">
+                                    Si tu piscina necesita un cambio, nuestro servicio de remodelación puede darle nueva vida.
+                                    Actualizamos el diseño,
+                                    mejoramos la eficiencia y agregamos nuevas características para que disfrutes de una piscina
+                                    moderna y funcional.
+                                </p>
+                                <ul class="text-secondary">
+                                    <li>Transformación completa de tu piscina.</li>
+                                    <li>Incorporación de las últimas tendencias y tecnologías.</li>
+                                    <li>Mejoras en eficiencia y estética.</li>
+                                </ul>
+                                <a href="#contact"
+                                    class="btn border-0 btn-primary fw-bold text-decoration-none px-4 text-white py-2 d-inline-block rounded-2 mt-3">
+                                    <span>Cotizar servicio</span>
+                                    <i class="bi bi-currency-dollar"></i>
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-maintenance" role="tabpanel"
+                                aria-labelledby="v-pills-maintenance-tab" tabindex="0">
+                                <img src="./assets/images/services/image-service-4.jpg"
+                                    alt="imagen de una piscina en mantenimiento" class="img-fluid rounded-3">
+                                <h2 class="fw-bold mt-4">Mantenimiento</h2>
+                                <p class="text-secondary">
+                                    Mantener tu piscina en perfectas condiciones es esencial para disfrutarla al máximo. Nuestro
+                                    servicio de mantenimiento
+                                    se encarga de todo, desde la limpieza hasta el control de la calidad del agua, para que solo
+                                    tengas que preocuparte por
+                                    relajarte.
+                                </p>
+                                <ul class="text-secondary">
+                                    <li>Mantenimiento regular y especializado.</li>
+                                    <li>Control de calidad del agua y tratamiento.</li>
+                                    <li>Inspecciones y reparaciones preventivas.</li>
+                                </ul>
+                                <a href="#contact"
+                                    class="btn border-0 btn-primary fw-bold text-decoration-none px-4 text-white py-2 d-inline-block rounded-2 mt-3">
+                                    <span>Cotizar servicio</span>
+                                    <i class="bi bi-currency-dollar"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion de CTA -->
+        <section class="section-cta container rounded-3 bg-primary">
+            <di class="row align-items-center px-2 px-lg-0">
+                <div class="col-12 order-last order-lg-first col-lg-4">
+                    <img src="./assets/images/image-section-contact.png" alt="imagen de personas" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-8 mt-5 mt-lg-0">
+                    <h2 class="display-6 fw-bold text-danger" data-aos="fade-up">Construye la piscina de tus sueños</h2>
+                    <p class="text-white" data-aos="fade-up">
+                        Diseñamos y construimos piscinas personalizadas con la más alta calidad y
+                        atención al detalle. <br> ¡Haz realidad el oasis que siempre has querido en tu hogar!
+                    </p>
+                    <a href="#contact" class="btn btn-light border-0 mt-4 text-primary fw-bold btn-cta" data-aos="fade-up">
+                        Contáctanos para más información
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </di>
+        </section>
+
+        <!-- Seccion de Galería -->
+        <section class="section-gallery" id="gallery">
+            <div class="container pb-5 my-5 px-0">
+                <h2 class="text-center text-dark display-5 fw-bold">Galería</h2>
+                <hr class="border border-primary border-3 opacity-75 p-0 m-0 w-25 m-auto rounded-circle">
+                <p class="text-center text-secondary mt-3">
+                    Estos son algunos de nuestros trabajos.
+                </p>
+                <div class="row mt-4 mx-2 mx-md-0 px-0">
+                    <div class="col-6 col-md-4" data-aos="zoom-in">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-image" data-bs-imagen="image-pool-1">
+                            <img class="img-fluid rounded-3 img-gallery" src="./assets/images/pools/image-pool-1.jpg"
+                                alt="imagen galeria de piscinas">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4" data-aos="zoom-in">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-image" data-bs-imagen="image-pool-2">
+                            <img class="img-fluid rounded-3 img-gallery" src="./assets/images/pools/image-pool-2.jpg"
+                                alt="imagen galeria de piscinas">
+                        </a>
+                    </div>
+                    <div class="col-12 my-4 my-md-0 col-md-4" data-aos="zoom-in">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-image" data-bs-imagen="image-pool-3">
+                            <img class="img-fluid rounded-3 img-gallery" src="./assets/images/pools/image-pool-3.jpg"
+                                alt="imagen galeria de piscinas">
+                        </a>
+                    </div>
+                </div>
+                <div class="row mt-md-4 mx-2 mx-md-0 px-0">
+                    <div class="col-6" data-aos="zoom-in">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-image" data-bs-imagen="image-pool-4">
+                            <img class="img-fluid rounded-3 img-gallery" src="./assets/images/pools/image-pool-4.jpg"
+                                alt="imagen galeria de piscinas">
+                        </a>
+                    </div>
+                    <div class="col-6" data-aos="zoom-in">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-image" data-bs-imagen="image-pool-5">
+                            <img class="img-fluid rounded-3 img-gallery" src="./assets/images/pools/image-pool-5.jpeg"
+                                alt="imagen galeria de piscinas">
+                        </a>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-image">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <button class="btn btn-primary border-0 px-4">
+                        Ver más proyectos <i class="bi bi-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion de Testimonios -->
+        <section class="section-testimonials bg-primary px-2 px-lg-0" id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mt-5">
+                        <h3 class="text-danger">Testimonios</h3>
+                        <h2 class="fw-bold display-5 text-white">¡Mira lo que dicen <br> nuestros clientes!</h2>
+                        <p class="text-white mt-3 pe-5">
+                            Nos enorgullece compartir las experiencias de nuestros clientes que han transformado sus espacios en
+                            verdaderos oasis.
+                            Lee lo que dicen sobre nuestro trabajo y por qué nos eligen.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-6 my-5">
+                        <div id="carouselRide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                            <div class="carousel-inner  rounded-3 bg-success-subtle">
+                                <!-- Testimonio 1 -->
+                                <div class="carousel-item active">
+                                    <div class="card w-100 rounded-3 border-0 p-4 h-auto">
+                                        <div class="card-body">
+                                            <i class="bi bi-quote display-2"></i>
+                                            <p class="card-text">
+                                                "La experiencia con esta empresa fue excelente. Diseñaron y construyeron la
+                                                piscina de mis sueños con una calidad
+                                                increíble. ¡Muy recomendados!"
+                                            </p>
+                                            <hr>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="d-md-flex align-items-center gap-2">
+                                                    <img class="img-fluid rounded-pill object-fit-cover img-client"
+                                                        src="./assets/images/clients/image-client-1.jpg"
+                                                        alt="imagen del cliente">
+                                                    <h3 class="fs-5">Ana Pérez</h3>
+                                                </div>
+                                                <div class="text-warning">
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-half fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonio 2 -->
+                                <div class="carousel-item">
+                                    <div class="card w-100 rounded-3 border-0 p-4 h-auto">
+                                        <div class="card-body">
+                                            <i class="bi bi-quote display-2"></i>
+                                            <p class="card-text">
+                                                "Un trabajo impecable y una atención al cliente sobresaliente. La piscina quedó
+                                                exactamente como la
+                                                imaginamos, incluso mejor."
+                                            </p>
+                                            <hr>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="d-md-flex align-items-center gap-2">
+                                                    <img class="img-fluid rounded-pill object-fit-cover img-client"
+                                                        src="./assets/images/clients/image-client-2.jpg"
+                                                        alt="imagen del cliente">
+                                                    <h3 class="fs-5">Carlos Gómez</h3>
+                                                </div>
+                                                <div class="text-warning">
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-half fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonio 3 -->
+                                <div class="carousel-item">
+                                    <div class="card w-100 rounded-3 border-0 p-4 h-auto">
+                                        <div class="card-body">
+                                            <i class="bi bi-quote display-2"></i>
+                                            <p class="card-text">
+                                                "Superaron nuestras expectativas. El diseño y la construcción fueron
+                                                profesionales y muy detallistas.
+                                                ¡Amamos nuestra nueva piscina!"
+                                            </p>
+                                            <hr>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="d-md-flex align-items-center gap-2">
+                                                    <img class="img-fluid rounded-pill object-fit-cover img-client"
+                                                        src="./assets/images/clients/image-client-3.jpg"
+                                                        alt="imagen de cliente">
+                                                    <h3 class="fs-5">María López</h3>
+                                                </div>
+                                                <div class="text-warning">
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star-fill fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                    <i class="bi bi-star fs-5 p-1 rounded-pill bg-warning-subtle"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-indicators-outside text-center">
+                                <button type="button" data-bs-target="#carouselRide" data-bs-slide-to="0"
+                                    class="active text-bg-danger border-0 rounded-3 button-indicator" aria-current="true"
+                                    aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselRide" data-bs-slide-to="1"
+                                    class="text-bg-danger border-0 rounded-3 button-indicator" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselRide" data-bs-slide-to="2"
+                                    class="text-bg-danger border-0 rounded-3 button-indicator" aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion de Contactos -->
+        <section class="section-contact px-2 px-lg-0" id="contact">
+            <div class="container mt-5 mt-lg-0">
+                <div class="row">
+                    <div class="col-12 col-lg-6" data-aos="fade-up">
+                        <h3 class="fs-5 fw-bold text-secondary">Contactos</h3>
+                        <h2 class="text-secondary fw-bold">Háganos saber cómo podemos ayudarle</h2>
+                        <p class="text-secondary">
+                            Estamos aquí para ayudar y responder a cualquier pregunta que pueda tener.
+                        </p>
+                        <p class="text-secondary">
+                            ¡Estamos deseando saber de usted! Por
+                            favor,rellene el formulario, o utilice la información de contacto a continuación .
+                        </p>
+        
+                        <div>
+                            <a href="mailto:contact@contact.com" class="d-block text-decoration-none">
+                                <i class="bi bi-envelope bg-primary p-2 rounded-1 text-white"></i>
+                                <span>contact@contact.com</span>
+                            </a>
+                            <a href="telf:+573212234420" class="d-block text-decoration-none my-3">
+                                <i class="bi bi-telephone-plus bg-primary p-2 rounded-1 text-white"></i>
+                                <span>+57 3212234420</span>
+                            </a>
+                            <a href="https://maps.app.goo.gl/bt76QA6JKhEm88CB6" target="_blank" rel="noopener noreferrer"
+                                class="d-block text-decoration-none">
+                                <i class="bi bi-geo-alt bg-primary p-2 rounded-1 text-white"></i>
+                                <span>Medellín, Antioquia, Colombia</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0" data-aos="fade-down">
+                        <div id="alert-container"></div>
+                        <form id="form" class="bg-white p-4 p-lg-5 rounded-3 flex-column align-items-center shadow border border-secondary-subtle">
+                            <div class=" text-center">
+                                <h3 class="fw-bold text-secondary">¿DESEAS MÁS INFORMACIÓN?</h3>
+                                <p class="text-secondary">Completa el formulario para contactarnos.</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="from_name" class="mb-1 fw-bold text-secondary">Nombre</label>
+                                <input type="text" name="from_name" class="form-control shadow py-2" id="from_name"
+                                    placeholder="Escribe tu nombre completo aquí...">
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="from_email" class="mb-1 fw-bold text-secondary">Email</label>
+                                <input type="email" name="from_email" class="form-control shadow py-2" id="from_email"
+                                    placeholder="Escribe tu email aquí...">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label text-secondary">Mensaje</label>
+                                <textarea name="message" class="form-control shadow py-2" id="message" rows="3"
+                                    placeholder="Escribe tu mensaje aquí..."></textarea>
+                            </div>
+                            <button type="submit" id="button" class="btn btn-primary border-0 mt-4 px-3 fw-bold w-100">
+                                <span>Enviar mensaje</span>
+                                <i class="bi bi-send"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion de preguntas frecuentes -->
+        <section class="section-frequent-questions">
+            <div class="container my-5">
+                <h2 class="text-center mb-3" data-aos="zoom-in">Preguntas Frecuentes</h2>
+                <hr class="border border-primary border-3 opacity-75 p-0 m-0 w-25 m-auto rounded-circle">
+        
+                <div class="accordion mt-4" id="faqAccordion">
+        
+                    <div class="accordion-item border-0">
+                        <h3 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                ¿Cuánto tiempo lleva construir una piscina?
+                            </button>
+                        </h3>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                El tiempo de construcción de una piscina puede variar dependiendo del tamaño, el diseño y las
+                                condiciones climáticas. En general, el proceso puede tomar entre 6 y 12 semanas.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item border-0">
+                        <h3 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                ¿Qué tipos de piscinas ofrecen?
+                            </button>
+                        </h3>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Ofrecemos una variedad de tipos de piscinas, incluyendo piscinas de concreto, piscinas de fibra
+                                de
+                                vidrio y piscinas desmontables. También podemos diseñar piscinas personalizadas según las
+                                necesidades de nuestros clientes.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item border-0">
+                        <h3 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                ¿Qué mantenimiento requiere una piscina?
+                            </button>
+                        </h3>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                El mantenimiento de una piscina incluye la limpieza regular, el control y ajuste de los niveles
+                                químicos del agua, y la inspección del sistema de filtración. También recomendamos realizar un
+                                mantenimiento profesional cada temporada.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item border-0">
+                        <h3 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                ¿Ofrecen garantías en sus trabajos?
+                            </button>
+                        </h3>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Sí, ofrecemos garantías en nuestros trabajos. La duración y los detalles de la garantía pueden
+                                variar según el tipo de piscina y los servicios realizados. Nos aseguramos de proporcionar toda
+                                la
+                                información necesaria antes de comenzar cualquier proyecto.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item border-0">
+                        <h3 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                ¿Cuál es el costo promedio de una piscina?
+                            </button>
+                        </h3>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                El costo de una piscina varía ampliamente según el tamaño, el diseño y los materiales
+                                utilizados.
+                                Para obtener una estimación precisa, recomendamos contactar a nuestro equipo para una consulta y
+                                presupuesto personalizado.
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <aside class="contact-whatsapp position-fixed z-1 d-flex align-items-center">
+            <span class="px-3 py-1 me-1 rounded-0 bg-black text-white rounded-4 text-contact">Comunícate con un Asesor &#x1F590;
+            </span>
+            <a href="https://wa.me/+573145391552?text=Hola,%20deseo%20más%20información."
+                class="icon-whatsapp d-inline-flex align-items-center justify-content-center text-white text-decoration-none rounded-pill pulsing"
+                target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-whatsapp fs-2"></i>
+            </a>
+        </aside>
+    </main>
+
+    <!-- footer -->
+    <footer class="section-footer bg-primary rounded-top-3">
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-lg-6">
+                    <a class="text-danger fs-1 fw-bold" href="index.html">PoolCompany</a>
+                    <div>
+                        <p class="text-white">
+                            En PoolCompany, nos especializamos en el diseño y construcción de piscinas de alta calidad,
+                            adaptadas a las necesidades y sueños de nuestros clientes. Con años de experiencia en el sector,
+                            convertimos cualquier espacio en un verdadero oasis, combinando innovación, diseño y funcionalidad.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="fw-bold text-white">Contactos</h5>
+                    <p class="mb-1">
+                        <i class="bi bi-telephone text-danger"></i>
+                        <a href="tel:850-123-5021" class="text-decoration-none text-white">+57 3212234420</a>
+                    </p>
+                    <p class="mb-1">
+                        <i class="bi bi-envelope text-danger"></i>
+                         <a href="mailto:info@lorem.mail" class="text-decoration-none text-white">contact@contact.com</a>
+                    </p>
+                    <p>
+                        <i class="bi bi-geo-alt text-danger"></i>
+                        <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">Medellín, Antioquia, Colombia</a>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="fw-bold text-white">Social media</h5>
+                    <div class="d-flex gap-2">
+                        <a href="https://www.instagram.com" class="text-danger" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram fs-5"></i>
+                        </a>
+                        <a href="https://www.facebook.com" class="text-white" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-facebook fs-5 text-"></i>
+                        </a>
+                    </div>
+                    <p class="mt-3 text-white">
+                        Síguenos en nuestras redes sociales para conocer más sobre nuestros proyectos y servicios.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center pt-4 border-top">
+                <p class="mb-0 text-white">&copy; Copyright <span class="fw-bold" id="currentYear"></span> PoolCompany. All rights reserved.</p>
+                <ul class="list-unstyled d-flex gap-3 mb-0">
+                    <li><a href="/" class="text-white">Privacy Policy</a></li>
+                    <li><a href="/" class="text-white">Terms &amp; Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
