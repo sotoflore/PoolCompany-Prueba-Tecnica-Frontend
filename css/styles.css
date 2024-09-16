@@ -116,3 +116,47 @@ body{
     }
 }
 
+@media (width <= 768px){
+    .section-hero{
+        min-height: auto !important;
+        margin-top: 5rem;
+    }
+    #heroCarousel .carousel-item {
+        height: 60vh;
+    }
+    .hero-text {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+    }
+    .hero-title{
+        font-size: 2rem;
+    }
+    .btn-action{
+        width: 100% !important;
+    }
+    .section-cta{
+        border-radius: 0 !important;
+    }
+    .contact-whatsapp {
+        bottom: 1.2rem
+    }
+}
+
+@media (768px <= width < 992px) {
+    .section-hero {
+        min-height: auto !important;
+        margin-top: 5rem;
+    }
+
+    #heroCarousel .carousel-item {
+        height: 40vh;
+    }
+
+    .hero-text {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        
+    }
+}
