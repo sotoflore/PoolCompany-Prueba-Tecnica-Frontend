@@ -15,7 +15,7 @@ function handleModalShow(event) {
     const routeImage = link.getAttribute('data-bs-imagen');
 
     const imagen = document.createElement('IMG');
-    imagen.src = `/assets/images/pools/${routeImage}.jpg`;
+    imagen.src = `./assets/images/pools/${routeImage}.jpg`;
     imagen.classList.add('img-fluid');
     imagen.alt = 'Imagen Galería';
 
