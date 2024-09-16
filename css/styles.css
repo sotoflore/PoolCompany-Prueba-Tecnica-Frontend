@@ -4,6 +4,7 @@
     --color-blue-secondary:#dbeafe;
     --color-blue-dark: #1e3a8a;
     --color-blue-dark-bold:#172554;
+    --color-orange:#f97316;
 }
 @font-face {
     font-family: 'Poppins';
@@ -20,7 +21,7 @@ body{
 }
 .bg-danger,
 .text-bg-danger{
-    background-color: #f97316 !important;
+    background-color: var(--color-orange) !important;
 }
 .btn-primary,
 .bg-primary{
@@ -30,7 +31,7 @@ body{
     color: var(--color-blue-light) !important;
 }
 .text-danger{
-    color: #f97316 !important;
+    color: var(--color-orange) !important;
 }
 
 .section-hero,
