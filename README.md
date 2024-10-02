@@ -20,7 +20,9 @@ Landing page de una empresa ficticia de construcción y diseño de piscinas. Tie
 
 Demo desarrollado:
 
-![image-website](https://github.com/sotoflore/prueba-tecnica-frontend/blob/main/assets/images/img-website.png)
-
 Link Website: 
 https://sotoflore.github.io/prueba-tecnica-frontend/
+
+![image-website](https://github.com/sotoflore/prueba-tecnica-frontend/blob/main/assets/images/img-website.png)
+
+
