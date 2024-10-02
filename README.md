@@ -1,5 +1,5 @@
 # Landing Page para una Empresa de Piscinas
-Landing page de una empresa ficticia de construcción y diseño de piscinas. Tiene diseno responsivo.
+Landing page de una empresa ficticia de construcción y diseño de piscinas. Tiene diseño responsivo.
  ## Secciones
  - Header
  - Hero
