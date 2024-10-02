@@ -1,3 +1,23 @@
+# Landing Page para una Empresa de Piscinas
+Landing page de una empresa ficticia de construcción y diseño de piscinas. Tiene diseno responsivo.
+ ## Secciones
+ - Header
+ - Hero
+ - Servicios
+ - CTA
+ - Galeria
+ - Testimonios
+ - Contactos
+ - Header
+## Tecnologias usadas
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+# fuente de texto
+- Popins
+
+
 Demo desarrollado:
 
 ![image-website](https://github.com/sotoflore/prueba-tecnica-frontend/blob/main/assets/images/img-website.png)
